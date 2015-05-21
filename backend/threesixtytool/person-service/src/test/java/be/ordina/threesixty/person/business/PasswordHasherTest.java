@@ -5,9 +5,7 @@ import static org.hamcrest.Matchers.equalTo;
 
 import java.io.IOException;
 import java.nio.charset.Charset;
-import java.security.Security;
 
-import org.bouncycastle.jce.provider.BouncyCastleProvider;
 import org.junit.Before;
 import org.junit.Test;
 

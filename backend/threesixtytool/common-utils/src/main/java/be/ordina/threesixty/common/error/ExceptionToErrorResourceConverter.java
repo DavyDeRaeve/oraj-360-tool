@@ -13,8 +13,6 @@ import org.springframework.stereotype.Component;
 import be.ordina.threesixty.common.exceptions.MicroserviceException;
 import be.ordina.threesixty.common.hateoas.EmbeddedResourceSupport;
 
-import com.google.common.collect.Sets;
-
 @Component
 public class ExceptionToErrorResourceConverter {
 

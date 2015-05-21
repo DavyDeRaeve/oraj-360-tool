@@ -3,10 +3,13 @@ package be.ordina.threesixty.common.hateoas;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
+
 import javax.xml.bind.annotation.XmlElement;
+
 import org.springframework.hateoas.Link;
 import org.springframework.hateoas.ResourceSupport;
 import org.springframework.util.Assert;
+
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.annotation.JsonProperty;

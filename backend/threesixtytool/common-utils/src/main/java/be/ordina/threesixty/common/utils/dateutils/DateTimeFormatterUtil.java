@@ -1,6 +1,5 @@
 package be.ordina.threesixty.common.utils.dateutils;
 
-import org.springframework.stereotype.Component;
 
 /**
  * Created by stevedezitter on 15/04/15.

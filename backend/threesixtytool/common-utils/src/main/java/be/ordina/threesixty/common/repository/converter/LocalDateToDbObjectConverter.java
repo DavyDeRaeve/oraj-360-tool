@@ -1,11 +1,11 @@
 package be.ordina.threesixty.common.repository.converter;
 
-import com.mongodb.BasicDBObject;
-import com.mongodb.DBObject;
+import java.time.LocalDate;
+
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.data.convert.WritingConverter;
 
-import java.time.LocalDate;
+import com.mongodb.DBObject;
 
 /**
  * Created by stevedezitter on 15/04/15.

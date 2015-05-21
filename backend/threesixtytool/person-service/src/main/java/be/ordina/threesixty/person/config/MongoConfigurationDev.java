@@ -1,14 +1,14 @@
 package be.ordina.threesixty.person.config;
 
+import java.util.Collections;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Profile;
+
 import com.mongodb.Mongo;
 import com.mongodb.MongoClient;
 import com.mongodb.MongoCredential;
 import com.mongodb.ServerAddress;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Profile;
-
-import java.util.Collections;
 
 /**
  * Created by stevedezitter on 12/05/15.

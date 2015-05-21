@@ -1,11 +1,8 @@
 package be.ordina.threesixty.timeline;
 
-import static org.springframework.hateoas.config.EnableHypermediaSupport.HypermediaType.HAL;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.cloud.client.SpringCloudApplication;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.hateoas.config.EnableHypermediaSupport;
 
 /**
  * Created by stevedezitter on 15/04/15.
